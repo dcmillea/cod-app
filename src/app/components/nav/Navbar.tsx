@@ -5,7 +5,7 @@ import BurgerMenu from "./BurgerMenu";
 
 function Navbar() {
   return (
-    <header className="h-[64px] transform mt-8 rounded -translate-x-1/2 fixed top-0 w-full left-[50%] z-10 flex items-center justify-center transition-all duration-500 max-w-screen-xl">
+    <header className="h-[64px] transform mt-8 rounded -translate-x-1/2 fixed top-0 w-full left-[50%] z-50 flex items-center justify-center transition-all duration-500 max-w-screen-xl">
       <nav className="w-full h-full flex items-center justify-between bg-[#33333399] px-4">
         <Link
           href="/"
