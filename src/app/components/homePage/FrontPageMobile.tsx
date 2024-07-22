@@ -62,7 +62,7 @@ function FrontPageMobile() {
           objectFit="cover"
           quality={100}
         />
-        <ItemContainer text="Multiplayer" pageUrl="multiplayer" />
+        <ItemContainer text="Specialists" pageUrl="specialists" />
       </div>
     </div>
   );
