@@ -20,13 +20,25 @@ function Navbar() {
         </Link>
 
         <ul className="md:flex items-center hidden space-x-5">
-          <li className="navBarItem">About</li>
+          <Link href="/about" className="navBarItem">
+            About
+          </Link>
           <li className="font-extralight cursor-default">|</li>
-          <li className="navBarItem">WaW</li>
-          <li className="navBarItem">BO1</li>
-          <li className="navBarItem">BO2</li>
-          <li className="navBarItem">BO3</li>
-          <li className="navBarItem">BO4</li>
+          <Link href="/gamePage/worldAtWar" className="navBarItem">
+            WaW
+          </Link>
+          <Link href="/gamePage/blackOps1" className="navBarItem">
+            BO1
+          </Link>
+          <Link href="/gamePage/blackOps2" className="navBarItem">
+            BO2
+          </Link>
+          <Link href="/gamePage/blackOps3" className="navBarItem">
+            BO3
+          </Link>
+          <Link href="/gamePage/blackOps4" className="navBarItem">
+            BO4
+          </Link>
         </ul>
 
         <BurgerMenu />

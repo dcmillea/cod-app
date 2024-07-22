@@ -1877,3 +1877,68 @@ Reports of sightings of the terrible machine on battlefields around the world be
     },
   ];
 };
+
+export const gameData = () => {
+  return [
+    {
+      id: "worldAtWar",
+      key: Math.random() - Math.random(),
+      name: "Call of Duty: World at War",
+      description: `Call of Duty: World at War is a first-person shooter game produced by Treyarch, and is the first game in the "Black Ops" timeline. It was released on November 11, 2008 in North America and on November 14, 2008 in Europe. It was announced on December 2, 2007, and on June 6, 2008; the 64th anniversary of D-Day, Treyarch announced it would be named as "World at War" and it would take place in the Pacific theater of war as well as the Eastern Front.`,
+      image:
+        "https://static.wikia.nocookie.net/callofduty/images/1/19/Call_of_Duty_World_at_War_cover.png/revision/latest?cb=20151106221451",
+      campaign: 7.5,
+      zombies: 6,
+      multiplayer: 7.4,
+      criticScore: 84,
+    },
+    {
+      id: "blackOps1",
+      key: Math.random() - Math.random(),
+      name: "Call of Duty: Black Ops",
+      description: `Call of Duty: Black Ops, is the seventh main Call of Duty game, the third main game of the series developed by Treyarch and the sequel to Call of Duty: World at War. The game was published by Activision and for PC, Xbox 360, PlayStation 3, and the Nintendo Wii. Officially announced on April 30th, 2010,[3] the game was released on November 9th, 2010.`,
+      image:
+        "https://static.wikia.nocookie.net/callofduty/images/0/02/CoD_Black_Ops_cover.png/revision/latest?cb=20120306002815",
+      campaign: 8.9,
+      zombies: 7.9,
+      multiplayer: 8.4,
+      criticScore: 87,
+    },
+    {
+      id: "blackOps2",
+      key: Math.random() - Math.random(),
+      name: "Call of Duty: Black Ops 2",
+      description: `Call of Duty: Black Ops II, is a first-person shooter developed by Treyarch and published by Activision. This is the ninth main installment for the Call of Duty franchise released on November 13, 2012[3]. Announced on May 1st, 2012, during the NBA basketball playoffs, Black Ops II is a direct sequel to Call of Duty: Black Ops.`,
+      image:
+        "https://static.wikia.nocookie.net/callofduty/images/b/ba/BO2_RP_Boxart.png/revision/latest?cb=20120621223442",
+      campaign: 9.3,
+      zombies: 8,
+      multiplayer: 8.6,
+      criticScore: 83,
+    },
+    {
+      id: "blackOps3",
+      key: Math.random() - Math.random(),
+      name: "Call of Duty: Black Ops 3",
+      description: `Call of Duty: Black Ops III is a first-person shooter video game developed by Treyarch for Xbox One, PlayStation 4 and Windows and Beenox and Mercenary Technology for Xbox 360 and PlayStation 3. It was announced on February 5th, 2015 and officially named on April 9 of the same year. The official, full gameplay reveal was shown on April 26th, 2015,[1] and the game was officially released on November 6th. Black Ops III is the twelfth game in the Call of Duty franchise and Treyarch's first to be developed in a three-year development cycle.`,
+      image:
+        "https://static.wikia.nocookie.net/callofduty/images/7/76/Game_cover_art_BOIII.jpg/revision/latest?cb=20160211194000",
+      campaign: 6.6,
+      zombies: 9.8,
+      multiplayer: 8.4,
+      criticScore: 81,
+    },
+    {
+      id: "blackOps4",
+      key: Math.random() - Math.random(),
+      name: "Call of Duty: Black Ops 4",
+      description: `Call of Duty: Black Ops 4 (stylized as Call of Duty: Black Ops IIII) is a first-person shooter video game developed by Treyarch for PlayStation 4 and Xbox One and by Beenox (with assistance from Blizzard Entertainment) for Microsoft Windows. The game was released on October 12th, 2018.`,
+      image:
+        "https://static.wikia.nocookie.net/callofduty/images/0/08/Cover_Art_BO4.jpg/revision/latest/scale-to-width-down/1000?cb=20191029185759",
+      campaign: 8,
+      zombies: 6,
+      multiplayer: 8.1,
+      criticScore: 83,
+    },
+  ];
+};
