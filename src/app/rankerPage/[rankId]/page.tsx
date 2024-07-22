@@ -1,5 +1,8 @@
 import BossesRank from "@/app/components/rankerPages/BossesRank";
+import EggsRanked from "@/app/components/rankerPages/EggsRanked";
 import RankContainer from "@/app/components/rankerPages/RankContainer";
+import SpecialistRankContainer from "@/app/components/rankerPages/SpecialistRankContainer";
+import WonderWeaponsContainer from "@/app/components/rankerPages/WonderWeaponsContainer";
 
 export default function Page({ params }: { params: { rankId: string } }) {
   function camelCaseToTitleCase(camelCaseString: string) {
@@ -8,6 +11,7 @@ export default function Page({ params }: { params: { rankId: string } }) {
     // Capitalize the first letter and return the result
     return result.charAt(0).toUpperCase() + result.slice(1);
   }
+
   return (
     <section className="flex w-full bg-gray-900 justify-center min-h-screen flex-col items-center">
       <header className="flex max-w-screen-xl w-full mt-32 items-center">
@@ -17,6 +21,9 @@ export default function Page({ params }: { params: { rankId: string } }) {
       </header>
       {params.rankId === "zombieMaps" && <RankContainer />}
       {params.rankId === "bosses" && <BossesRank />}
+      {params.rankId === "easterEggs" && <EggsRanked />}
+      {params.rankId === "wonderWeapons" && <WonderWeaponsContainer />}
+      {params.rankId === "specialists" && <SpecialistRankContainer />}
     </section>
   );
 }
