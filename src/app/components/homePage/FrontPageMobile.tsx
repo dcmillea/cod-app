@@ -6,10 +6,10 @@ import moonZombs from "../../images/home/moon_zombs.webp";
 import mulitplayer from "../../images/home/multiplayerCOD.jpg";
 import ItemContainer from "./ItemContainer";
 
-function FrontPageImages() {
+function FrontPageMobile() {
   return (
     <div className="w-full grid grid-cols-5 grid-rows-8 mx-auto max-w-screen-xl min-h-screen">
-      <div className="row-start-1 hover:z-30 z-10 group relative row-end-4 col-start-1 col-end-3">
+      <div className="row-start-1 hover:z-30 z-10 group relative row-end-3 col-start-1 col-end-6">
         <Image
           className="absolute sectionHover"
           src={originsStaves}
@@ -20,7 +20,7 @@ function FrontPageImages() {
         />
         <ItemContainer text="Wonder Weapons" pageUrl="/wonderWeapons" />
       </div>
-      <div className="row-start-3 hover:z-30 z-20 group relative row-end-6 col-start-2 col-end-5">
+      <div className="row-start-3 hover:z-30 z-20 group relative row-end-4 col-start-1 col-end-6">
         <Image
           className="absolute sectionHover rounded-xl"
           src={wawZombies}
@@ -31,7 +31,7 @@ function FrontPageImages() {
         />
         <ItemContainer text="Zombie Maps" pageUrl="/zombieMaps" />
       </div>
-      <div className="row-start-4 hover:z-30 z-10 group relative row-end-9 col-start-1 col-end-4">
+      <div className="row-start-4 hover:z-30 z-10 group relative row-end-5 col-start-1 col-end-6">
         <Image
           className="absolute sectionHover rounded-xl"
           src={nineTiger}
@@ -42,7 +42,7 @@ function FrontPageImages() {
         />
         <ItemContainer text="Bosses" pageUrl="bosses" />
       </div>
-      <div className="row-start-1 relative hover:z-30 z-10 group row-end-5 col-start-3 col-end-6">
+      <div className="row-start-5 relative hover:z-30 z-10 group row-end-6 col-start-1 col-end-6">
         <Image
           className="absolute sectionHover rounded-xl"
           src={moonZombs}
@@ -53,7 +53,7 @@ function FrontPageImages() {
         />
         <ItemContainer text="Easter Eggs" pageUrl="easterEggs" />
       </div>
-      <div className="row-start-5 relative hover:z-30 z-10 group row-end-9 col-start-4 col-end-6">
+      <div className="row-start-6 relative hover:z-30 z-10 group row-end-9 col-start-1 col-end-6">
         <Image
           className="absolute sectionHover rounded-xl"
           src={mulitplayer}
@@ -68,4 +68,4 @@ function FrontPageImages() {
   );
 }
 
-export default FrontPageImages;
+export default FrontPageMobile;

@@ -51,7 +51,11 @@ body {
   }
 
   .sectionHover {
-    @apply cursor-pointer hover:brightness-50 transition-all duration-300 ease-in
+    @apply cursor-pointer hover:brightness-50 hover:blur-sm transition-all duration-300 ease-out
+  }
+
+  .ratingItem {
+    @apply text-[#c4b1b1] font-light md:text-base text-xs 
   }
 }
 
